@@ -12,7 +12,7 @@ O SEDUCKATODOS é um ambiente digital adaptativo idealizado por estudantes do CE
 
 Apesar dos avanços legais voltados à inclusão escolar, muitos estudantes neurodivergentes ainda enfrentam barreiras invisíveis nos ambientes virtuais de aprendizagem. O SEDUCKATODOS surge como uma resposta concreta a esse desafio: uma **plataforma adaptativa e responsiva**, pensada para atender às necessidades de estudantes com **Transtorno do Espectro Autista (TEA)**, **Transtorno de Déficit de Atenção e Hiperatividade (TDAH)** e **dislexia**.
 
-O sistema foi desenvolvido com base nos princípios do **Desenho Universal para a Aprendizagem (DUA)** e nas diretrizes do **GAIA** e **NAAPI**, priorizando a personalização, acessibilidade e leveza técnica.
+O sistema será desenvolvido com base nos princípios do **Desenho Universal para a Aprendizagem (DUA)** e nas diretrizes do **GAIA** e **NAAPI**, priorizando a personalização, acessibilidade e leveza técnica.
 
 ---
 
@@ -68,7 +68,17 @@ Desenvolver uma plataforma web educacional adaptativa que promova a personaliza�
 
 ---
 
-## 🖼️ Protótipos da Plataforma
+## 🛠 Tecnologias
+
+- PHP 8+, HTML5, CSS3 e JavaScript Vanilla
+- MySQL
+- API de leitura por voz (`speechSynthesis`)
+- OpenDyslexic Font
+- Figma + Canva para protótipos
+
+---
+
+## 🖼️ Protótipos da Plataforma feitas no Canva que depois serão lapidadas ao figma:
 
 ### 🧩 Tela Inicial (com detecção de perfil e saudação da mascote Ada)
 
@@ -115,23 +125,54 @@ Desenvolver uma plataforma web educacional adaptativa que promova a personaliza�
 
 ---
 
-### 🤖 Mascote Ada: acolhimento e motivação
+# 🤖 Ada e Allan: As Mentes que Inspiram o SEDUCKATODOS
 
-A Ada é uma mascote responsiva que guia o aluno, celebra conquistas e oferece suporte afetivo. Cada perfil conta com frases motivacionais específicas e interações visuais com ela.
+## 👩 Ada Lovelace – A Primeira Programadora da História
 
-![Ada Mascote](prototipos/telas_capturadas/ada_mascote.png)
+Augusta Ada King, Condessa de Lovelace — conhecida como **Ada Lovelace** — foi uma matemática britânica que, no século XIX, escreveu o **primeiro algoritmo** para ser processado por uma máquina. Mesmo sem computadores em sua época, ela imaginou o que mais tarde chamaríamos de **software**.
+
+> “A máquina analítica tece padrões algébricos, assim como o tear de Jacquard tece flores e folhas.”  
+> — *Ada Lovelace, 1843*
+
+No projeto **SEDUCKATODOS**, Ada é muito mais que um nome: é a **mascote virtual da plataforma**. Com visual amigável e linguagem acolhedora, **Ada guia, incentiva e conforta** os estudantes neurodivergentes, tornando-se um elo emocional e cognitivo entre eles e a tecnologia.
+
+**Funções da Ada na plataforma:**
+- Oferecer reforço positivo e motivacional
+- Adaptar mensagens conforme o perfil do aluno (TEA, TDAH ou dislexia)
+- Ajudar na leitura automatizada de instruções
+- Representar a presença feminina na ciência e na tecnologia
+
+Na versão 2.0, Ada contará com **inteligência artificial leve** para ajustar seu comportamento com base nas interações dos alunos.
 
 ---
 
-## 🛠 Tecnologias
+## 👨‍💻 Alan Turing – O Gênio que Venceu Códigos e Barreiras
 
-- PHP 8+, HTML5, CSS3 e JavaScript Vanilla
-- MySQL
-- API de leitura por voz (`speechSynthesis`)
-- OpenDyslexic Font
-- Figma + Canva para protótipos
+**Alan Turing**, matemático britânico, é conhecido como o **pai da computação moderna**. Criador da máquina de Turing — conceito que fundamenta o funcionamento dos computadores atuais —, ele também foi decisivo na Segunda Guerra Mundial, ao decifrar os códigos da máquina Enigma usados pelos nazistas.
+
+Turing era autista. Seu perfil neurodivergente foi historicamente marginalizado, e ele enfrentou grande preconceito. Ainda assim, seu legado mudou o mundo.
+
+> “Às vezes, são as pessoas que ninguém imagina que fazem as coisas que ninguém consegue imaginar.”  
+> — *O Jogo da Imitação (filme sobre Turing)*
+
+No projeto **SEDUCKATODOS**, **Allan** representa:
+- A genialidade das mentes neurodivergentes
+- O potencial que floresce quando há acolhimento e respeito
+- A urgência de tornar o ambiente escolar um lugar onde talentos não sejam desperdiçados
 
 ---
+
+## ✨ Por que Ada e Allan?
+
+- **Ada** inspira a parte afetiva e pedagógica da plataforma: acolhimento, mediação e motivação.
+- **Allan** inspira o pilar lógico e computacional: programação, acessibilidade, propósito.
+
+Juntos, representam a **força da diversidade cognitiva** e o compromisso da nossa equipe com uma educação que abrace todos os cérebros — dos mais analíticos aos mais sensíveis.
+
+---
+
+> Este documento é parte do projeto [SEDUCKATODOS](../README.md), criado por estudantes do CETI Angelina Mendes Braga – Pedro II/PI.
+
 
 ## 📄 Documentação
 
