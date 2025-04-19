@@ -93,7 +93,7 @@ Desenvolver uma plataforma web educacional adaptativa que promova a personaliza√
 - Fundo azul claro e pictogramas
 - Ada como refor√ßo visual
 
-![Quiz TEA](prototipos/telas_capturadas/quiz_tea.png)
+![Quiz TEA](Imagens/Perfil_TEA.png)
 
 ---
 
@@ -104,7 +104,7 @@ Desenvolver uma plataforma web educacional adaptativa que promova a personaliza√
 - Barra de progresso
 - Feedback imediato
 
-![Quiz TDAH](prototipos/telas_capturadas/quiz_tdah.png)
+![Quiz TDAH](Imagens/Perfil_TDAH.png)
 
 ---
 
@@ -115,13 +115,13 @@ Desenvolver uma plataforma web educacional adaptativa que promova a personaliza√
 - Fundo off-white
 - Destaques visuais e auditivos
 
-![Quiz Dislexia](prototipos/telas_capturadas/quiz_dislexia.png)
+![Quiz Dislexia](Imagens/Perfil_Dislexia.png)
 
 ---
 
 ### üé• V√≠deo-Aula com Acessibilidade (Dislexia)
 
-![V√≠deo Aula](prototipos/telas_capturadas/video_aula_dislexia.png)
+![V√≠deo Aula](Imagens/Video_Aula_Dislexia.png)
 
 ---
 
