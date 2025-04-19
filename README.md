@@ -53,7 +53,7 @@ Desenvolver uma plataforma web educacional adaptativa que promova a personaliza�
 | **Rafael Sousa Magalhães** | Programador Full Stack (PHP/JS/MySQL) | ![Rafael](src/assets/avatars/rafael.jpg) |
 | **Gustavo de Sousa Barros** | Líder de testes e validação com usuários | ![Gustavo](src/assets/avatars/gustavo.jpg) |
 | **Camila Santiago Freire** | Documentação e organização do repositório | ![Camila](src/assets/avatars/camila.jpg) |
-| **Prof. Esp. Cleber da Silva Araujo** | Orientador do projeto | ![Cleber](Imagens/camila.jpg)489988966_9459216657498851_2128405936884701434_n.jpg |
+| **Prof. Esp. Cleber da Silva Araujo** | Orientador do projeto | ![Cleber](Imagens/489988966_9459216657498851_2128405936884701434_n.jpg) |
 
 ---
 
