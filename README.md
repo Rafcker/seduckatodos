@@ -8,6 +8,40 @@
 O SEDUCKATODOS é um ambiente digital adaptativo idealizado por estudantes do CETI Angelina Mendes Braga, com foco na personalização do ensino para alunos com Transtorno do Espectro Autista (TEA), Transtorno de Déficit de Atenção e Hiperatividade (TDAH) e dislexia. A plataforma foi concebida com base nos princípios do Desenho Universal para a Aprendizagem (DUA), utilizando tecnologias acessíveis e de baixo custo, compatíveis com a realidade das escolas públicas do Piauí. O nome “SEDUCKATODOS” é um trocadilho com a palavra “Seduckathon” — competição estadual de inovação educacional da qual o projeto surgiu — e reforça o compromisso com a inclusão e a acessibilidade para todos os estudantes.
 
 
+## 📘 Introdução
+
+Apesar dos avanços legais voltados à inclusão escolar, muitos estudantes neurodivergentes ainda enfrentam barreiras invisíveis nos ambientes virtuais de aprendizagem. O SEDUCKATODOS surge como uma resposta concreta a esse desafio: uma **plataforma adaptativa e responsiva**, pensada para atender às necessidades de estudantes com **Transtorno do Espectro Autista (TEA)**, **Transtorno de Déficit de Atenção e Hiperatividade (TDAH)** e **dislexia**.
+
+O sistema foi desenvolvido com base nos princípios do **Desenho Universal para a Aprendizagem (DUA)** e nas diretrizes do **GAIA** e **NAAPI**, priorizando a personalização, acessibilidade e leveza técnica.
+
+---
+
+## 📌 Justificativa
+
+Grande parte das plataformas educacionais não contempla as particularidades cognitivas dos alunos neurodivergentes, contribuindo para o distanciamento, evasão e desmotivação. A **SEDUCKATODOS** busca transformar esse cenário com uma proposta:
+
+- Viável para escolas públicas
+- Alinhada à legislação educacional
+- Apoiada por professores e psicopedagogos
+- Com recursos adaptados por perfil cognitivo
+
+Alinhado aos **ODS 4 (Educação de Qualidade)** e **ODS 10 (Redução das Desigualdades)** da ONU, este projeto também representa uma proposta socialmente engajada e tecnicamente possível de escalar em nível estadual.
+
+---
+
+## 🎯 Objetivos
+
+**Geral:**  
+Desenvolver uma plataforma web educacional adaptativa que promova a personalização do ensino de estudantes com TEA, TDAH e dislexia, ampliando sua participação, permanência e aprendizagem significativa.
+
+**Específicos:**
+
+- Criar uma interface acessível por perfil cognitivo
+- Incluir leitura por voz, pictogramas, temporizador, separação silábica e mascote digital
+- Desenvolver painel docente para personalização do ensino
+- Validar o sistema com estudantes reais da rede estadual do Piauí
+
+---
 ---
 
 ## 👥 Equipe ANGELINA FRONTLINE
