@@ -5,7 +5,7 @@
 
 ## 🌐 Visão Geral
 
-O SEDUCKATODOS é um ambiente digital adaptativo idealizado por estudantes do CETI Angelina Mendes Braga de Pedro II(PI), com foco na personalização do ensino para alunos com Transtorno do Espectro Autista (TEA), Transtorno de Déficit de Atenção e Hiperatividade (TDAH) e dislexia. A plataforma foi concebida com base nos princípios do Desenho Universal para a Aprendizagem (DUA), utilizando tecnologias acessíveis e de baixo custo, compatíveis com a realidade das escolas públicas do Piauí. O nome “SEDUCKATODOS” é um trocadilho com a palavra “Seduckathon” — competição estadual de inovação educacional da qual o projeto surgiu — e reforça o compromisso com a inclusão e a acessibilidade para todos os estudantes.
+O SEDUCKATODOS é um ambiente digital adaptativo idealizado por estudantes do CETI Angelina Mendes Braga de Pedro II(PI), com foco na personalização do ensino para alunos com Transtorno do Espectro Autista (TEA), Transtorno de Déficit de Atenção e Hiperatividade (TDAH) e dislexia. A plataforma será desenvolvida com base nos princípios do Desenho Universal para a Aprendizagem (DUA), utilizando tecnologias acessíveis e de baixo custo, compatíveis com a realidade das escolas públicas do Piauí. O nome “SEDUCKATODOS” é um trocadilho com a palavra “Seduckathon” — competição estadual de inovação educacional da qual o projeto surgiu — e reforça o compromisso com a inclusão e a acessibilidade para todos os estudantes.
 
 
 ## 📘 Introdução
@@ -159,6 +159,7 @@ No projeto **SEDUCKATODOS**, **Allan** representa:
 - A genialidade das mentes neurodivergentes
 - O potencial que floresce quando há acolhimento e respeito
 - A urgência de tornar o ambiente escolar um lugar onde talentos não sejam desperdiçados
+- O Mascote "Alan" também será implementado na versão 2.0. 
 
 ---
 
@@ -183,11 +184,6 @@ Juntos, representam a **força da diversidade cognitiva** e o compromisso da nos
 
 ---
 
-## 🔒 Licença
-
-Este projeto é licenciado sob os termos da [MIT License](LICENSE).
-
----
 
 ## 🌎 ODS da ONU
 
