@@ -5,7 +5,8 @@
 
 ## 🌐 Visão Geral
 
-O SEDUCKATODOS é um ambiente digital adaptativo desenvolvido por estudantes do CETI Angelina Mendes Braga, voltado à personalização do ensino de alunos com TEA, TDAH e dislexia. A plataforma usa princípios do Desenho Universal para a Aprendizagem (DUA), tecnologias acessíveis e foco na **acessibilidade real** nas escolas públicas do Piauí.
+O SEDUCKATODOS é um ambiente digital adaptativo idealizado por estudantes do CETI Angelina Mendes Braga, com foco na personalização do ensino para alunos com Transtorno do Espectro Autista (TEA), Transtorno de Déficit de Atenção e Hiperatividade (TDAH) e dislexia. A plataforma foi concebida com base nos princípios do Desenho Universal para a Aprendizagem (DUA), utilizando tecnologias acessíveis e de baixo custo, compatíveis com a realidade das escolas públicas do Piauí. O nome “SEDUCKATODOS” é um trocadilho com a palavra “Seduckathon” — competição estadual de inovação educacional da qual o projeto surgiu — e reforça o compromisso com a inclusão e a acessibilidade para todos os estudantes.
+
 
 ---
 
