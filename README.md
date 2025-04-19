@@ -37,7 +37,7 @@ O SEDUCKATODOS é um ambiente digital adaptativo desenvolvido por estudantes do 
 
 ### 🧩 Tela Inicial (com detecção de perfil e saudação da mascote Ada)
 
-![Tela Inicial](prototipos/telas_capturadas/tela_inicial.png)
+![Captura de tela de 2025-04-19 13-54-45](https://github.com/user-attachments/assets/f9792657-5eea-4b7c-b844-ee377a64f0f3)
 
 ---
 
