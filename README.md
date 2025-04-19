@@ -1,4 +1,4 @@
-<h1 align="center">🎓 SEDUCKATODOS</h1>
+<h1 align="center">🎓 SEDUCKATODOS - Equipe: ANGELINA FRONTLINE</h1>
 <p align="center">Uma plataforma educacional acessível, feita com amor e inclusão</p>
 
 ---
