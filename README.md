@@ -49,10 +49,10 @@ Desenvolver uma plataforma web educacional adaptativa que promova a personaliza�
 | Integrante | Função | Foto |
 |-----------|--------|------|
 | **Débora Lima de Almeida** | UX Writer, pesquisadora de acessibilidade pedagógica | ![Débora](src/assets/avatars/debora.jpg) |
-| **Dalila Maria da Silva Andrande** | Designer e prototipadora (Figma, Canva) |<img src="Imagens/IMG_3438.jpg" alt="Dalila" width="60"/>||
+| **Dalila Maria da Silva Andrande** | Designer e prototipadora (Figma, Canva) |<img src="Imagens/Dalila" alt="Dalila" width="60"/>||
 | **Rafael Sousa Magalhães** | Programador Full Stack (PHP/JS/MySQL) | ![Rafael](src/assets/avatars/rafael.jpg) |
-| **Gustavo de Sousa Barros** | Líder de testes e validação com usuários | ![Gustavo](src/assets/avatars/gustavo.jpg) |
-| **Camila Santiago Freire** | Documentação e organização do repositório | ![Camila](src/assets/avatars/camila.jpg) |
+| **Gustavo de Sousa Barros** | Líder de testes e validação com usuários | <img src="Imagens/Gustavo" alt="Gustavo" width="60"/> |
+| **Camila Santiago Freire** | Documentação e organização do repositório | <img src="Imagens/Beige Simple Photo Signature Twitter Profile Picture.png" alt="Camila" width="60"/> |
 | **Prof. Esp. Cleber da Silva Araujo** | Orientador do projeto | <img src="Imagens/489988966_9459216657498851_2128405936884701434_n.jpg" alt="Cleber" width="60"/>|
 
 ---
