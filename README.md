@@ -1,195 +1,149 @@
-<h1 align="center">🎓 SEDUCKATODOS - Equipe: ANGELINA FRONTLINE</h1>
-<p align="center">Uma plataforma educacional acessível, feita com amor e inclusão</p>
+<h1 align="center">🎓 SEDUCKATODOS - Equipe OPALA FRONTLINE</h1>
+<p align="center">Uma plataforma educacional acessível, feita com amor e inclusão real</p>
 
 ---
 
 ## 🌐 Visão Geral
 
-O SEDUCKATODOS é um ambiente digital adaptativo idealizado por estudantes do CETI Angelina Mendes Braga de Pedro II(PI), com foco na personalização do ensino para alunos com Transtorno do Espectro Autista (TEA), Transtorno de Déficit de Atenção e Hiperatividade (TDAH) e dislexia. A plataforma será desenvolvida com base nos princípios do Desenho Universal para a Aprendizagem (DUA), utilizando tecnologias acessíveis e de baixo custo, compatíveis com a realidade das escolas públicas do Piauí. O nome “SEDUCKATODOS” é um trocadilho com a palavra “Seduckathon” — competição estadual de inovação educacional da qual o projeto surgiu — e reforça o compromisso com a inclusão e a acessibilidade para todos os estudantes.
+**SEDUCKATODOS** é uma plataforma web adaptativa, pensada para **estudantes com TEA, TDAH e dislexia**, desenvolvida por alunos do **CETI Angelina Mendes Braga (Pedro II/PI)**. Baseia-se no **Desenho Universal da Aprendizagem (DUA)**, utilizando **tecnologias leves e acessíveis** adequadas à realidade das escolas públicas do Piauí. A proposta nasceu do cotidiano escolar e utiliza IA (GPT-3.5-turbo), leitura por voz, mascotes afetivos e recursos personalizados para garantir **aprendizagem significativa e inclusão plena**.
 
+---
 
 ## 📘 Introdução
 
-Apesar dos avanços legais voltados à inclusão escolar, muitos estudantes neurodivergentes ainda enfrentam barreiras invisíveis nos ambientes virtuais de aprendizagem. O SEDUCKATODOS surge como uma resposta concreta a esse desafio: uma **plataforma adaptativa e responsiva**, pensada para atender às necessidades de estudantes com **Transtorno do Espectro Autista (TEA)**, **Transtorno de Déficit de Atenção e Hiperatividade (TDAH)** e **dislexia**.
+Apesar dos avanços legais, estudantes neurodivergentes ainda enfrentam barreiras nos ambientes digitais de aprendizagem. O **SEDUCKATODOS** surge como resposta concreta, oferecendo:
 
-O sistema será desenvolvido com base nos princípios do **Desenho Universal para a Aprendizagem (DUA)** e nas diretrizes do **GAIA** e **NAAPI**, priorizando a personalização, acessibilidade e leveza técnica.
+- Interface adaptativa por perfil (TEA, TDAH ou Dislexia)
+- Leitura em voz alta, pictogramas, separação silábica
+- Painel do professor com reescrita automática por IA
+- Mascotes (Ada, Alan e Eniac) como mediadores afetivos
+
+A plataforma foi construída com base em vivências reais e diretrizes como **DUA, GAIA, NAAPI e WCAG 2.1**, sendo uma solução prática, escalável e de impacto social.
 
 ---
 
 ## 📌 Justificativa
 
-Grande parte das plataformas educacionais não contempla as particularidades cognitivas dos alunos neurodivergentes, contribuindo para o distanciamento, evasão e desmotivação. A **SEDUCKATODOS** busca transformar esse cenário com uma proposta:
+📈 Segundo o Censo Escolar 2024, as matrículas de estudantes com TEA cresceram 44,4%. Ainda assim, muitas escolas carecem de ferramentas inclusivas.
 
-- Viável para escolas públicas
-- Alinhada à legislação educacional
-- Apoiada por professores e psicopedagogos
-- Com recursos adaptados por perfil cognitivo
+O SEDUCKATODOS é:
 
-Alinhado aos **ODS 4 (Educação de Qualidade)** e **ODS 10 (Redução das Desigualdades)** da ONU, este projeto também representa uma proposta socialmente engajada e tecnicamente possível de escalar em nível estadual.
+- Viável para a rede pública
+- Alinhado à LGPD, LBI e Agenda 2030 da ONU (ODS 4 e 10)
+- Sustentável (custo mensal estimado: R$ 83,50)
+- Apoiado por professores, psicopedagogos e pela comunidade escolar
 
 ---
 
 ## 🎯 Objetivos
 
-**Geral:**  
-Desenvolver uma plataforma web educacional adaptativa que promova a personalização do ensino de estudantes com TEA, TDAH e dislexia, ampliando sua participação, permanência e aprendizagem significativa.
+**Objetivo Geral:**  
+Desenvolver uma plataforma web educacional adaptativa que personalize o ensino de estudantes com TEA, TDAH e dislexia.
 
-**Específicos:**
+**Objetivos Específicos:**
 
-- Criar uma interface acessível por perfil cognitivo
-- Incluir leitura por voz, pictogramas, temporizador, separação silábica e mascote digital
-- Desenvolver painel docente para personalização do ensino
-- Validar o sistema com estudantes reais da rede estadual do Piauí
+- Interface adaptada por perfil cognitivo
+- Painel docente com IA para reescrita e relatórios
+- Funcionalidades como leitura em voz alta, pictogramas, temporizador e separação silábica
+- Realizar testes com 30 estudantes e aplicar Escala SUS (meta ≥ 80)
 
 ---
----
 
-## 👥 Equipe ANGELINA FRONTLINE
+## 👨‍👩‍👧‍👦 Equipe OPALA FRONTLINE
 
-| Integrante | Função | Foto |
-|-----------|--------|------|
-| **Débora Lima de Almeida** | UX Writer, pesquisadora de acessibilidade pedagógica | ![Débora](src/assets/avatars/debora.jpg) |
-| **Dalila Maria da Silva Andrande** | Designer e prototipadora (Figma, Canva) |<img src="Imagens/Dalila" alt="Dalila" width="60"/>||
-| **Rafael Sousa Magalhães** | Programador Full Stack (PHP/JS/MySQL) | ![Rafael](src/assets/avatars/rafael.jpg) |
-| **Gustavo de Sousa Barros** | Líder de testes e validação com usuários | <img src="Imagens/Gustavo" alt="Gustavo" width="60"/> |
-| **Camila Santiago Freire** | Documentação e organização do repositório | <img src="Imagens/Beige Simple Photo Signature Twitter Profile Picture.png" alt="Camila" width="60"/> |
-| **Prof. Esp. Cleber da Silva Araujo** | Orientador do projeto | <img src="Imagens/489988966_9459216657498851_2128405936884701434_n.jpg" alt="Cleber" width="60"/>|
+| Nome                        | Função                                        | Foto                                               |
+|-----------------------------|-----------------------------------------------|----------------------------------------------------|
+| Débora Lima de Almeida      | UX Writer e pesquisadora pedagógica           | ![Débora](src/assets/avatars/debora.jpg)           |
+| Dalila Maria da Silva Andrande | Designer e prototipadora (Figma, Canva)  | <img src="Imagens/Dalila" width="60"/>             |
+| Rafael Sousa Magalhães      | Programador Full Stack (PHP/JS/MySQL)         | ![Rafael](src/assets/avatars/rafael.jpg)           |
+| Gustavo de Sousa Barros     | Testes e validação com usuários               | <img src="Imagens/Gustavo" width="60"/>            |
+| Camila Santiago Freire      | Documentação e organização do repositório     | <img src="Imagens/Camila.png" width="60"/>         |
+| Prof. Esp. Cleber da Silva Araujo | Orientador do projeto                  | <img src="Imagens/Cleber.jpg" width="60"/>         |
 
 ---
 
 ## 🧩 Funcionalidades
 
-✅ Interface personalizada por perfil cognitivo  
-✅ Leitura por voz (SpeechSynthesis API)  
-✅ Separação silábica automática  
-✅ Modo foco e temporizador Pomodoro  
-✅ Painel do professor com painel pedagógico  
-✅ Mascote Ada como reforço afetivo
+- ✅ Interface adaptada por perfil (TEA, TDAH, Dislexia)
+- ✅ Leitura por voz (API SpeechSynthesis)
+- ✅ Separação silábica automática
+- ✅ Temporizador Pomodoro e Modo Foco
+- ✅ Reescrita de textos com IA (GPT-3.5-turbo)
+- ✅ Mascotes personalizáveis e motivacionais
 
 ---
 
-## 🛠 Tecnologias
+## 🛠 Tecnologias Utilizadas
 
-- PHP 8+, HTML5, CSS3 e JavaScript Vanilla
+- PHP 8.4, HTML5, CSS3, JavaScript
 - MySQL
-- API de leitura por voz (`speechSynthesis`)
+- API OpenAI (GPT-3.5-turbo)
+- speechSynthesis (JS)
 - OpenDyslexic Font
-- Figma + Canva para protótipos
+- Figma + Canva (protótipos)
 
 ---
 
-## 🖼️ Protótipos da Plataforma feitas no Canva que depois serão lapidadas ao figma:
+## 🖼️ Protótipos Iniciais
 
-### 🧩 Tela Inicial (com detecção de perfil e saudação da mascote Ada)
+> Desenvolvidos no Figma e Canva, prontos para lapidação e implementação.
 
-![Captura de tela de 2025-04-19 13-54-45](https://github.com/user-attachments/assets/f9792657-5eea-4b7c-b844-ee377a64f0f3)
+### Tela Inicial (perfil detectado automaticamente)
+![Tela Inicial](Imagens/Tela_Inicial.png)
 
----
+### Perfil TEA
+- Cores neutras, 3 opções de resposta, pictogramas
+![Perfil TEA](Imagens/Perfil_TEA.png)
 
-### 👦 Perfil TEA
+### Perfil TDAH
+- Modo foco, Pomodoro, barra de progresso
+![Perfil TDAH](Imagens/Perfil_TDAH.png)
 
-- Layout estável
-- 3 alternativas por questão
-- Fundo azul claro e pictogramas
-- Ada como reforço visual
-
-![Quiz TEA](Imagens/Perfil_TEA.png)
-
----
-
-### ⚡ Perfil TDAH
-
-- Temporizador Pomodoro
-- Modo Foco ativável
-- Barra de progresso
-- Feedback imediato
-
-![Quiz TDAH](Imagens/Perfil_TDAH.png)
+### Perfil Dislexia
+- Separação silábica, fonte acessível, leitura lenta
+![Perfil Dislexia](Imagens/Perfil_Dislexia.png)
 
 ---
 
-### 📖 Perfil Dislexia
+## 🤖 Ada, Alan e Eniac: Mascotes que Inspiram
 
-- Fonte OpenDyslexic
-- Separação silábica e leitura lenta
-- Fundo off-white
-- Destaques visuais e auditivos
+### 👩 Ada Lovelace
+Mascote oficial, representa a sensibilidade e acolhimento. Oferece reforço emocional, leitura guiada e apoio afetivo aos estudantes.
 
-![Quiz Dislexia](Imagens/Perfil_Dislexia.png)
+### 👨‍💻 Alan Turing
+Representa a lógica, inteligência e neurodivergência como potência. Inspira perseverança e superação.
 
----
-
-### 🎥 Vídeo-Aula com Acessibilidade (Dislexia)
-
-![Vídeo Aula](Imagens/Video_Aula_Dislexia.png)
+### 🖥️ Eniac
+Mascote extra, simboliza inovação e diversidade racial. Configurável e opcional.
 
 ---
 
-# 🤖 Ada e Allan: As Mentes que Inspiram o SEDUCKATODOS
+## 📐 Metodologia
 
-## 👩 Ada Lovelace – A Primeira Programadora da História
+Baseada em **Design Science Research**, com 5 etapas:
 
-Augusta Ada King, Condessa de Lovelace — conhecida como **Ada Lovelace** — foi uma matemática britânica que, no século XIX, escreveu o **primeiro algoritmo** para ser processado por uma máquina. Mesmo sem computadores em sua época, ela imaginou o que mais tarde chamaríamos de **software**.
-
-> “A máquina analítica tece padrões algébricos, assim como o tear de Jacquard tece flores e folhas.”  
-> — *Ada Lovelace, 1843*
-
-No projeto **SEDUCKATODOS**, Ada é muito mais que um nome: é a **mascote virtual da plataforma**. Com visual amigável e linguagem acolhedora, **Ada guia, incentiva e conforta** os estudantes neurodivergentes, tornando-se um elo emocional e cognitivo entre eles e a tecnologia.
-
-**Funções da Ada na plataforma:**
-- Oferecer reforço positivo e motivacional
-- Adaptar mensagens conforme o perfil do aluno (TEA, TDAH ou dislexia)
-- Ajudar na leitura automatizada de instruções
-- Representar a presença feminina na ciência e na tecnologia
-
-Na versão 2.0, Ada contará com **inteligência artificial leve** para ajustar seu comportamento com base nas interações dos alunos.
+1. Análise das barreiras enfrentadas pelos perfis
+2. Modelagem do artefato com base em DUA, GAIA e NAAPI
+3. Desenvolvimento com tecnologias acessíveis
+4. Testes com 30 alunos por 90 dias (SUS ≥ 80)
+5. Ajustes e sistematização dos resultados
 
 ---
 
-## 👨‍💻 Alan Turing – O Gênio que Venceu Códigos e Barreiras
+## 📄 Documentação Técnica
 
-**Alan Turing**, matemático britânico, é conhecido como o **pai da computação moderna**. Criador da máquina de Turing — conceito que fundamenta o funcionamento dos computadores atuais —, ele também foi decisivo na Segunda Guerra Mundial, ao decifrar os códigos da máquina Enigma usados pelos nazistas.
-
-Turing era autista. Seu perfil neurodivergente foi historicamente marginalizado, e ele enfrentou grande preconceito. Ainda assim, seu legado mudou o mundo.
-
-> “Às vezes, são as pessoas que ninguém imagina que fazem as coisas que ninguém consegue imaginar.”  
-> — *O Jogo da Imitação (filme sobre Turing)*
-
-No projeto **SEDUCKATODOS**, **Allan** representa:
-- A genialidade das mentes neurodivergentes
-- O potencial que floresce quando há acolhimento e respeito
-- A urgência de tornar o ambiente escolar um lugar onde talentos não sejam desperdiçados
-- O Mascote "Alan" também será implementado na versão 2.0. 
+- 📘 [Projeto Completo (PDF)](docs/projeto_final.pdf)
+- ✍️ [Metodologia](docs/metodologia.md)
+- 🎯 [Objetivos](docs/objetivos.md)
+- 🧑‍💻 [Equipe e Funções](docs/equipe.md)
 
 ---
 
-## ✨ Por que Ada e Allan?
+## 🌎 Alinhamento aos ODS da ONU
 
-- **Ada** inspira a parte afetiva e pedagógica da plataforma: acolhimento, mediação e motivação.
-- **Allan** inspira o pilar lógico e computacional: programação, acessibilidade, propósito.
-
-Juntos, representam a **força da diversidade cognitiva** e o compromisso da nossa equipe com uma educação que abrace todos os cérebros — dos mais analíticos aos mais sensíveis.
+✔ **ODS 4 – Educação de Qualidade**  
+✔ **ODS 10 – Redução das Desigualdades**
 
 ---
 
-> Este documento é parte do projeto [SEDUCKATODOS](../README.md), criado por estudantes do CETI Angelina Mendes Braga – Pedro II/PI.
-
-
-## 📄 Documentação
-
-- 📘 [Projeto Completo em PDF](docs/projeto_final.pdf)
-- ✍️ [Metodologia Detalhada](docs/metodologia.md)
-- 🎯 [Objetivos do Projeto](docs/objetivos.md)
-- 🧑‍💻 [Funções da Equipe](docs/equipe.md)
-
----
-
-
-## 🌎 ODS da ONU
-
-✔ ODS 4 – Educação de Qualidade  
-✔ ODS 10 – Redução das Desigualdades
-
----
-
-<p align="center"><strong>Inclusão não é luxo, é direito. E começa com acessibilidade real.</strong></p>
+<p align="center"><strong>“Inclusão não é luxo. É um direito. E começa com acessibilidade real.”</strong></p>
