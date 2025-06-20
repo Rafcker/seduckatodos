@@ -1,0 +1,75 @@
+<!-- Declaração do tipo de documento HTML5 -->
+<!DOCTYPE html>
+
+<!-- Início do documento HTML com idioma português do Brasil -->
+<html lang="pt-BR">
+
+<head>
+  <!-- Define a codificação de caracteres como UTF-8 (suporte a acentuação) -->
+  <meta charset="UTF-8" />
+
+  <!-- Define a largura da viewport para se adaptar ao dispositivo -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título da aba do navegador -->
+  <title>Tela de Login</title>
+
+  <!-- Importa a fonte acessível OpenDyslexic via CDN -->
+  <link href="https://cdn.jsdelivr.net/gh/antijingoist/opendyslexic@0.91/open-dyslexic.css" rel="stylesheet" />
+
+  <!-- Importa o arquivo de estilos CSS externo -->
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- Importa o JavaScript externo com 'defer' para carregar após o HTML -->
+  <script defer src="js/index.js"></script>
+</head>
+
+<body>
+  <!-- Formulário principal de login que envia dados via método POST para login.php -->
+  <form action="login.php" method="POST" class="login-wrapper">
+
+    <!-- Área com dois logotipos: do projeto e do governo -->
+    <div class="top-logos">
+      <img src="imagens/seduckatodos-logo.png" alt="Logo SEDUCKATODOS" />
+      <img src="imagens/seduc-piaui.png" alt="Logos Governo" />
+    </div>
+
+    <!-- Título da tela -->
+    <h1>TELA DE LOGIN</h1>
+
+    <!-- Campo de entrada para matrícula -->
+    <div class="form-group">
+      <label for="matricula">Matrícula:</label>
+      <input type="text" id="matricula" name="matricula" required />
+    </div>
+
+    <!-- Campo de entrada para senha -->
+    <div class="form-group">
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required />
+    </div>
+
+    <!-- Opção para exibir ou ocultar a senha com um ícone de olho -->
+    <div class="show-password">
+      <img class="eye-icon" src="https://cdn-icons-png.flaticon.com/512/159/159604.png" alt="Visualizar Senha" />
+      <label>
+        <input type="checkbox" onclick="toggleSenha()" />
+        Visualizar Senha
+      </label>
+    </div>
+
+    <!-- Botão de envio do formulário -->
+    <button type="submit" class="login-button">Entrar</button>
+
+    <!-- Mensagem de rodapé -->
+    <div class="footer">Criado para aprender do seu jeito!</div>
+
+    <!-- Botão de acessibilidade para ativar a leitura em voz alta -->
+    <div class="audio-button" onclick="ouvirTexto()">
+      <img src="imagens/ouvir.png" alt="Ouvir" />
+      <span>Ouvir</span>
+    </div>
+
+  </form>
+</body>
+</html>

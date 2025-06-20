@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escolha a Disciplina</title>
+  <link href="https://cdn.jsdelivr.net/gh/antijingoist/opendyslexic@0.91/open-dyslexic.css" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'OpenDyslexic', Arial, sans-serif;
+    }
+
+    body {
+      background-color: #E3F2FD;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 20px;
+      background-color: #0288d1;
+      color: white;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .title {
+      background-color: #FFF2B7;
+      border: 2px solid #A69765;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      margin: 20px auto;
+      max-width: 800px;
+    }
+
+    .main-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 40px;
+      padding: 20px 60px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    .card img.icon {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+      text-decoration: underline;
+    }
+
+    .card .status {
+      font-size: 16px;
+      color: #131190;
+    }
+
+    .card .alert {
+      color: #FD3300;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .card .audio-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    .ada-section {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      z-index: 1000;
+    }
+
+    .ada-section img {
+      height: 140px;
+    }
+
+    .ada-message {
+      background-color: #fff;
+      border: 2px solid #000;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 18px;
+      position: relative;
+      min-width: 300px;
+    }
+
+    .ada-message::after {
+      content: "";
+      position: absolute;
+      left: -20px;
+      top: 20px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 20px solid #fff;
+    }
+
+    .sidebar {
+      position: absolute;
+      left: 20px;
+      top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .sidebar img {
+      width: 70px;
+    }
+
+    footer {
+      position: absolute;
+      right: 30px;
+      bottom: 30px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #000;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://uploaddeimagens.com.br/images/004/777/424/full/seduckatodos-logo.png" alt="Logo" width="80">
+    </div>
+    <div class="perfil">
+      <img src="imagens/perfil_tdah" alt="Foto do perfil" style="width: 80px; height: 80px; border-radius: 50%; border: 3px solid black;">
+      <div style="text-align: center; text-decoration: underline;">Perfil</div>
+    </div>
+  </header>
+
+  <div class="title">Escolha a Disciplina que vamos estudar hoje!</div>
+
+  <div class="sidebar">
+    <img src="https://placehold.co/77x75" alt="Modo Foco">
+    <div style="font-size: 18px;">Modo Foco</div>
+  </div>
+
+  <div class="main-content">
+    <div class="card">
+      <img class="icon" src="imagens/logos_disciplinas/quimica.png" alt="Química">
+      <h3>Química</h3>
+      <div class="status">Tudo ok!</div>
+      <img class="audio-btn" src="imagens/ouvir.png" width="24" alt="Ouvir">
+    </div>
+    <div class="card">
+      <img class="icon" src="imagens/logos_disciplinas/portugues.png" alt="Português">
+      <h3>Português</h3>
+      <div class="status">Tudo ok!</div>
+      <img class="audio-btn" src="https://cdn-icons-png.flaticon.com/512/727/727269.png" width="24" alt="Ouvir">
+    </div>
+    <div class="card">
+      <img class="icon" src="imagens/logos_disciplinas/geografia.png" alt="Geografia">
+      <h3>Geografia</h3>
+      <div class="status">Tudo ok!</div>
+      <img class="audio-btn" src="https://cdn-icons-png.flaticon.com/512/727/727269.png" width="24" alt="Ouvir">
+    </div>
+    <div class="card">
+      <img class="icon" src="https://placehold.co/64x64" alt="Matemática">
+      <h3>Matemática</h3>
+      <div class="status">Tudo ok!</div>
+      <img class="audio-btn" src="https://cdn-icons-png.flaticon.com/512/727/727269.png" width="24" alt="Ouvir">
+    </div>
+    <div class="card">
+      <img class="icon" src="https://placehold.co/64x64" alt="Programação">
+      <h3>Programação</h3>
+      <div class="alert">1 Quiz Pendente</div>
+      <img class="audio-btn" src="https://cdn-icons-png.flaticon.com/512/727/727269.png" width="24" alt="Ouvir">
+    </div>
+  </div>
+
+  <div class="ada-section">
+    <img src="imagens/ada.png" alt="Ada">
+    <div class="ada-message" id="ada-msg"></div>
+  </div>
+
+  <footer onclick="alert('Saindo...')">Sair</footer>
+
+  <script>
+    let vozAda = null;
+
+    function obterVozFeminina() {
+      const voices = speechSynthesis.getVoices();
+      return voices.find(v => v.name === "Microsoft Maria - Portuguese (Brazil)") ||
+             voices.find(v => v.lang === "pt-BR" && v.name.toLowerCase().includes("maria")) ||
+             voices.find(v => v.lang === "pt-BR") ||
+             voices[0];
+    }
+
+    function falarAda() {
+      const falaEl = document.getElementById("ada-msg");
+      if (!falaEl || !vozAda) return;
+
+      const textoOriginal = "Olá, Lucas. Eu sou a Ada! Você ainda tem 3 tarefas de Matemática. Vamos resolver juntos no seu tempo, tudo bem?";
+      const palavras = textoOriginal.split(/\s+/);
+      let indice = 0;
+
+      falaEl.innerHTML = "";
+
+      // Fala todo o texto
+      const utterance = new SpeechSynthesisUtterance(textoOriginal);
+      utterance.lang = 'pt-BR';
+      utterance.voice = vozAda;
+      utterance.rate = 0.9;
+      speechSynthesis.cancel();
+      speechSynthesis.speak(utterance);
+
+      // Exibe palavra por palavra
+      const intervalo = setInterval(() => {
+        if (indice < palavras.length) {
+          falaEl.innerHTML += (indice > 0 ? " " : "") + `<span style="text-decoration: underline red;">${palavras[indice]}</span>`;
+          indice++;
+        } else {
+          clearInterval(intervalo);
+        }
+      }, 400); // tempo entre palavras (em milissegundos)
+    }
+
+    function falarTexto(texto) {
+      if (!vozAda || !texto) return;
+      const utterance = new SpeechSynthesisUtterance(texto);
+      utterance.lang = 'pt-BR';
+      utterance.voice = vozAda;
+      utterance.rate = 0.9;
+      speechSynthesis.cancel();
+      speechSynthesis.speak(utterance);
+    }
+
+    function inicializarVozAda() {
+      vozAda = obterVozFeminina();
+      falarAda();
+    }
+
+    window.addEventListener('load', () => {
+      if (speechSynthesis.getVoices().length > 0) {
+        inicializarVozAda();
+      } else {
+        speechSynthesis.onvoiceschanged = () => {
+          inicializarVozAda();
+        };
+      }
+
+      setTimeout(() => {
+        const fala = document.querySelector('.ada-message');
+        if (fala) fala.style.display = 'none';
+      }, 30000);
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.audio-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const card = e.target.closest('.card');
+          const disciplina = card.querySelector('h3').innerText;
+          falarTexto(disciplina);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
