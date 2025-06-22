@@ -94,15 +94,15 @@ Desenvolver uma plataforma web educacional adaptativa que personalize o ensino d
 
 ### Perfil TEA
 - Cores neutras, 3 opções de resposta, pictogramas
-![Perfil TEA](Imagens/Perfil_TEA.png)
+![Perfil TEA](Imagens/tea.png)
 
 ### Perfil TDAH
 - Modo foco, Pomodoro, barra de progresso
-![Perfil TDAH](Imagens/Perfil_TDAH.png)
+![Perfil TDAH](Imagens/tdah.png)
 
 ### Perfil Dislexia
 - Separação silábica, fonte acessível, leitura lenta
-![Perfil Dislexia](Imagens/Perfil_Dislexia.png)
+![Perfil Dislexia](Imagens/dis.png)
 
 ---
 
