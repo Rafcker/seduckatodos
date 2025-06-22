@@ -1,0 +1,177 @@
+/* ============================ */
+/* RESET E TIPOGRAFIA GERAL    */
+/* ============================ */
+* {
+  margin: 0;                     /* Remove margens padrão */
+  padding: 0;                    /* Remove preenchimentos padrão */
+  box-sizing: border-box;       /* Mantém a largura total dos elementos previsível */
+  font-family: 'OpenDyslexic', Arial, sans-serif; /* Fonte acessível para dislexia */
+}
+
+/* ============================ */
+/* ESTILO DO CORPO DA PÁGINA   */
+/* ============================ */
+body {
+  background-color: #e3f2fd;    /* Cor de fundo clara e suave */
+  display: flex;                /* Centraliza o conteúdo */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;                /* Altura da viewport inteira */
+  padding: 20px;
+}
+
+/* ============================ */
+/* CONTAINER PRINCIPAL         */
+/* ============================ */
+.login-wrapper {
+  position: relative;
+  background: #e3f2fd;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 600px;             /* Limite de largura máxima */
+  padding: 30px 40px 70px;
+  box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* ============================ */
+/* LOGOS DO TOPO               */
+/* ============================ */
+.top-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-logos img {
+  max-height: 70px;             /* Limita a altura das imagens */
+}
+
+/* ============================ */
+/* TÍTULO PRINCIPAL            */
+/* ============================ */
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* ============================ */
+/* GRUPOS DE FORMULÁRIO        */
+/* ============================ */
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 2px solid #03a9f4;
+  font-size: 16px;
+  background: #fffde7;          /* Fundo amarelo claro */
+}
+
+/* ============================ */
+/* CHECKBOX "MOSTRAR SENHA"    */
+/* ============================ */
+.show-password {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+/* ============================ */
+/* BOTÃO DE LOGIN              */
+/* ============================ */
+.login-button {
+  display: block;
+  width: 140px;
+  padding: 12px;
+  background: linear-gradient(to bottom, #ffd83f, #f2b700); /* Gradiente dourado */
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background: linear-gradient(to bottom, #ffe066, #e6a800); /* Efeito hover */
+}
+
+/* ============================ */
+/* RODAPÉ                      */
+/* ============================ */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* ============================ */
+/* BOTÃO DE ÁUDIO              */
+/* ============================ */
+.audio-button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  background-color: #ffffffcc;  /* Fundo branco semitransparente */
+  padding: 10px 14px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.audio-button.active {
+  background-color: #ffecb3;   /* Fundo amarelo claro quando ativado */
+}
+
+.audio-button img {
+  width: 40px;
+  height: 40px;
+}
+
+/* ============================ */
+/* ÍCONE DO OLHO               */
+/* ============================ */
+.eye-icon {
+  width: 25px;
+  vertical-align: middle;
+}
+
+/* ============================ */
+/* TEXTO DESTACADO             */
+/* ============================ */
+.highlight {
+  text-decoration: underline red 3px; /* Sublinhado vermelho */
+  text-underline-offset: 4px;
+  background-color: transparent;
+}
+
+/* ============================ */
+/* MEDIA QUERIES - CELULARES   */
+/* ============================ */
+@media (max-width: 480px) {
+  .login-wrapper {
+    padding: 20px;               /* Reduz o padding em telas menores */
+  }
+
+  .login-button {
+    width: 100%;                 /* Botão ocupa toda a largura */
+  }
+}

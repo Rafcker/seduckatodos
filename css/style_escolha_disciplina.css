@@ -1,0 +1,237 @@
+/* ========================================= */
+/* RESET E CONFIGURAÇÃO GLOBAL               */
+/* ========================================= */
+* {
+  margin: 0;                  /* Remove margens padrão */
+  padding: 0;                 /* Remove preenchimentos padrão */
+  box-sizing: border-box;    /* Inclui padding e border na largura total */
+}
+
+body {
+  background-color: #E3F2FD; /* Cor de fundo suave */
+}
+
+/* ========================================= */
+/* FOTO DE PERFIL                            */
+/* ========================================= */
+.perfil-foto {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;           /* Ícone clicável */
+}
+
+.perfil-foto img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;        /* Torna a imagem redonda */
+  border: 3px solid #0288d1; /* Borda azul */
+  object-fit: cover;         /* Garante o corte proporcional da imagem */
+}
+
+.perfil-foto .editar-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.perfil-foto .editar-icon img {
+  width: 18px;
+  height: 18px;
+}
+
+/* ========================================= */
+/* BARRA SUPERIOR FIXA                       */
+/* ========================================= */
+.top-bar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000; /* Garante que fique sobre os outros elementos */
+}
+
+/* ========================================= */
+/* BOTÕES DA BARRA SUPERIOR                  */
+/* ========================================= */
+.top-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.foco-botao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.foco-botao img {
+  width: 40px;
+}
+
+.foco-botao span {
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+/* ========================================= */
+/* TÍTULO DA SEÇÃO                           */
+/* ========================================= */
+.title {
+  background-color: #FFF2B7;
+  border: 2px solid #A69765;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 100px auto 20px;
+  max-width: 800px;
+}
+
+/* ========================================= */
+/* GRID PRINCIPAL DE DISCIPLINAS             */
+/* ========================================= */
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  padding: 20px 60px;
+}
+
+/* ========================================= */
+/* CARTÕES DAS DISCIPLINAS                   */
+/* ========================================= */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
+  position: relative;
+  transition: transform 0.2s; /* Animação ao passar o mouse */
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img.icon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 5px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.card .status {
+  font-size: 16px;
+  color: #131190; /* Azul escuro */
+}
+
+.card .alert {
+  color: #FD3300; /* Vermelho forte */
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* ========================================= */
+/* BOTÃO DE ÁUDIO                            */
+/* ========================================= */
+.audio-wrapper {
+  position: relative;
+}
+
+.audio-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 2;
+  background-color: #E3F2FD;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.audio-btn:hover {
+  transform: scale(1.1);
+}
+
+/* ========================================= */
+/* FORMULÁRIO INVISÍVEL SOBRE O CARD         */
+/* ========================================= */
+.card form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.card button {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* ========================================= */
+/* ÁREA DA MASCOTE ADA                       */
+/* ========================================= */
+.ada-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  z-index: 1000;
+}
+
+.ada-section img {
+  height: 250px;
+}
+
+.ada-message {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 18px;
+  position: relative;
+  min-width: 300px;
+}
+
+/* Setinha do balão de fala da Ada */
+.ada-message::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 20px solid #fff;
+}

@@ -1,0 +1,58 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "'OpenDyslexic', Arial, sans-serif" ; 
+    }
+
+    body {
+      background: #E3F2FD;
+      overflow-x: hidden;
+    }
+
+    .highlight-palavra {
+      border-bottom: 2px dashed red;
+      background-color: #fff8dc;
+    }
+
+    .top-bar-fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: white;
+      border-bottom: 2px solid black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      z-index: 1000;
+    }
+
+    .top-buttons {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .foco-botao {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .foco-botao img {
+      width: 40px;
+      transition: transform 0.2s;
+    }
+
+    .foco-botao:hover img {
+      transform: scale(1.1);
+    }
+
+    .foco-botao span {
+      margin-top: 4px;
+      font-weight: bold;
+    }

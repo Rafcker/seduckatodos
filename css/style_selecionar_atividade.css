@@ -1,0 +1,407 @@
+/* =======================
+   RESET E CONFIGURAÇÃO GLOBAL
+======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =======================
+   ESTILO GERAL DO BODY
+======================= */
+body {
+  background-color: #E3F2FD;
+  font-family: 'Lexend Deca', Arial, sans-serif;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* =======================
+   ESTRUTURA DE LAYOUT
+======================= */
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  padding: 20px 60px;
+}
+
+/* =======================
+   BARRA FIXA SUPERIOR (TOPO)
+======================= */
+.top-bar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.top-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* =======================
+   CABEÇALHO E TÍTULOS
+======================= */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+.title {
+  background-color: #FFF2B7;
+  border: 2px solid #A69765;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 100px auto 20px;
+  max-width: 800px;
+}
+
+.welcome {
+  background: #FFF59D;
+  border: 2px solid black;
+  box-shadow: 3px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  max-width: 900px;
+}
+
+/* =======================
+   CARDS DE DISCIPLINAS OU ITENS
+======================= */
+/* ===============================
+   ÁREA PRINCIPAL DOS CARDS (container geral)
+================================ */
+.cards {
+  display: flex;               /* Coloca os cards lado a lado */
+  justify-content: center;     /* Centraliza os cards horizontalmente */
+  gap: 60px;                   /* Espaço entre os cards */
+  margin-top: 10px;            /* Espaço acima dos cards */
+  flex-wrap: wrap;             /* Permite que os cards quebrem linha em telas pequenas */
+}
+
+/* ===============================
+   ENVOLVENDO CADA CARD INDIVIDUAL
+================================ */
+.card-wrapper {
+  display: flex;               /* Flex para alinhar conteúdo interno verticalmente */
+  flex-direction: column;      /* Alinha os elementos um abaixo do outro */
+  align-items: center;         /* Centraliza horizontalmente */
+  text-align: center;          /* Alinha texto ao centro */
+}
+
+/* ===============================
+   CONTAINER DO CARD (permite botão flutuante com posição absoluta)
+================================ */
+.card-container {
+  position: relative;          /* Necessário para posicionar elementos filhos como o botão de áudio */
+  display: inline-block;       /* Permite que o container se ajuste ao conteúdo */
+  margin: 5px;                 /* Espaço externo ao redor do card */
+}
+
+/* ===============================
+   ESTILIZAÇÃO DO CARD EM SI
+================================ */
+.card {
+  background: white;           /* Fundo branco */
+  border-radius: 12px;         /* Bordas arredondadas */
+  padding: 20px;               /* Espaçamento interno */
+  text-align: center;          /* Centraliza texto e imagem */
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.1);  /* Sombra leve */
+  position: relative;          /* Permite botões internos com position: absolute */
+  transition: transform 0.2s;  /* Animação suave ao passar o mouse */
+}
+
+/* ===============================
+   EFEITO HOVER NO CARD (ao passar o mouse)
+================================ */
+.card:hover {
+  transform: scale(1.03);      /* Aumenta levemente o tamanho */
+  box-shadow: 0 14px 10px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+}
+
+/* ===============================
+   IMAGEM DENTRO DO CARD
+================================ */
+.card img.icon {
+  width: 90%;                  /* Imagem ocupa metade da largura do card */
+  object-fit: cover;           /* Corta e preenche mantendo o aspecto visual */
+  border-radius: 12px;         /* Borda arredondada na imagem */
+  margin-bottom: 5px;          /* Espaço abaixo da imagem */
+}
+
+/* ===============================
+   TÍTULO DO CARD
+================================ */
+.card h3 {
+  font-size: 20px;             /* Tamanho da fonte */
+  margin-bottom: 5px;          /* Espaço abaixo do título */
+  text-decoration: underline;  /* Sublinhar o título */
+}
+
+/* ===============================
+   TEXTO DE STATUS (por ex. "Tudo ok!")
+================================ */
+.card .status {
+  font-size: 16px;             /* Tamanho da fonte */
+  color: #131190;              /* Cor azul escuro */
+}
+
+/* ===============================
+   TEXTO DE ALERTA (por ex. "2 pendentes")
+================================ */
+.card .alert {
+  color: #FD3300;              /* Vermelho chamativo */
+  font-weight: bold;           /* Negrito */
+  margin-top: 5px;             /* Espaço acima do texto */
+}
+
+/* ===============================
+   BOTÃO INVISÍVEL SOBRE O CARD (para tornar o card clicável inteiro)
+================================ */
+.card form,
+.card button {
+  position: absolute;          /* Posiciona sobre o card */
+  top: 0;                      /* Começa do topo */
+  left: 0;                     /* Começa da esquerda */
+  width: 90%;                  /* Cobre metade do card (pode ajustar para 100% se quiser o card todo clicável) */
+  height: 90%;                 /* Idem acima */
+  background: transparent;     /* Transparente */
+  border: none;                /* Sem borda */
+  cursor: pointer;             /* Mostra ícone de clique */
+  z-index: 1;                  /* Fica acima da imagem e texto */
+}
+
+
+/* =======================
+   BOTÕES E ÍCONES
+======================= */
+.foco-botao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.foco-botao img {
+  width: 40px;
+}
+
+.foco-botao span {
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+.audio-btn-wrapper {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 2;
+  background-color: #E3F2FD;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.audio-btn-wrapper img {
+  width: 30px;
+  height: 30px;
+}
+
+.audio-btn-wrapper:hover {
+  transform: scale(1.1);
+}
+
+/* =======================
+   MASCOTE ADA
+======================= */
+
+.ada-section {
+  position: fixed;         /* Fixa a Ada na tela */
+  bottom: 0;               /* Encostada no fundo */
+  left: 0;                 /* Encostada na esquerda */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  z-index: 9999;           /* Garante que fique na frente de tudo */
+  padding: 0px;
+}
+
+.ada-section img {
+  height: 250px;           /* Tamanho da imagem da Ada */
+}
+
+.ada-message {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 14px;
+  position: relative;
+  min-width: 220px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.ada-message::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 20px solid #fff;
+}
+
+
+/* =======================
+   ÁUDIO E TEXTO (OUVIR)
+======================= */
+.audio-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ouvir {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ouvir img {
+  width: 24px;
+  height: 24px;
+}
+
+.ouvir-texto {
+  font-size: 14px;
+  text-decoration: underline;
+  margin-top: 2px;
+}
+
+.linha-ouvir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.linha-ouvir.sair-linha {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+/* =======================
+   PERFIL DO USUÁRIO
+======================= */
+.perfil-area {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.foto-botao-perfil {
+  width: 70px;
+  height: 70px;
+  border-radius: 0%;
+  border: 2px solid black;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.3);
+  overflow: hidden;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.foto-botao-perfil img {
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  display: block;
+}
+
+.perfil-foto {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.perfil-foto img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #0288d1;
+  object-fit: cover;
+}
+
+.perfil-foto .editar-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.perfil-foto .editar-icon img {
+  width: 18px;
+  height: 18px;
+}
+
+.perfil-nome,
+.sair {
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.sair {
+  font-size: 28px;
+}
+
