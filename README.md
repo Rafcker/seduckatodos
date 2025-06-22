@@ -51,14 +51,15 @@ Desenvolver uma plataforma web educacional adaptativa que personalize o ensino d
 
 ## 👨‍👩‍👧‍👦 Equipe OPALA FRONTLINE
 
-| Nome                        | Função                                        | Foto                                               |
-|-----------------------------|-----------------------------------------------|----------------------------------------------------|
-| Débora Lima de Almeida      | UX Writer e pesquisadora pedagógica           | ![Débora](src/assets/avatars/debora.jpg)           |
-| Dalila Maria da Silva Andrande | Designer e prototipadora (Figma, Canva)  | <img src="Imagens/Dalila" width="60"/>             |
-| Rafael Sousa Magalhães      | Programador Full Stack (PHP/JS/MySQL)         | <img src="Imagens/Rafael" width="60"/>     |
-| Gustavo de Sousa Barros     | Testes e validação com usuários               | <img src="Imagens/Gustavo" width="60"/>            |
-| Camila Santiago Freire      | Documentação e organização do repositório     | <img src="Imagens/Camila" width="60"/>         |
-| Prof. Esp. Cleber da Silva Araujo | Orientador do projeto                  | <img src="Imagens/cleber.jpg" width="60"/>         |
+| Nome                              | Função                                                                 | Foto                                              |
+|-----------------------------------|------------------------------------------------------------------------|---------------------------------------------------|
+| **Débora Lima de Almeida**        | UX Writer e pesquisadora pedagógica (Leis e Diretrizes Educacionais)   | <img src="Imagens/DEBORA" width="60"/>            |
+| **Dalila Maria da Silva Andrande**| Designer, prototipadora (Figma, Canva) e porta-voz internacional       | <img src="Imagens/Dalila" width="60"/>            |
+| **Rafael Sousa Magalhães**        | Desenvolvedor Full Stack (PHP, JS, MySQL)                              | <img src="Imagens/Rafael" width="60"/>            |
+| **Gustavo de Sousa Barros**       | Prototipação no Figma e apoio no desenvolvimento                       | <img src="Imagens/Gustavo" width="60"/>           |
+| **Camila Santiago Freire**        | Responsável pela documentação e testes com usuários                    | <img src="Imagens/CAMILA" width="60"/>            |
+| **Prof. Esp. Cleber da Silva Araujo** | Orientador do projeto                                             | <img src="Imagens/cleber.jpg" width="60"/>        |
+
 
 ---
 
