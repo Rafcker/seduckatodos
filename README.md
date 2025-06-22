@@ -90,7 +90,7 @@ Desenvolver uma plataforma web educacional adaptativa que personalize o ensino d
 > Desenvolvidos no Figma e Canva, prontos para lapidação e implementação.
 
 ### Tela Inicial (perfil detectado automaticamente)
-![Tela Inicial](Imagens/Tela_Inicial.png)
+![Tela Inicial](Imagens/inicio.png)
 
 ### Perfil TEA
 - Cores neutras, 3 opções de resposta, pictogramas
