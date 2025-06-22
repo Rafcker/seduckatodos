@@ -54,9 +54,9 @@ Desenvolver uma plataforma web educacional adaptativa que personalize o ensino d
 | Nome                        | Função                                        | Foto                                               |
 |-----------------------------|-----------------------------------------------|----------------------------------------------------|
 | Débora Lima de Almeida      | UX Writer e pesquisadora pedagógica           | ![Débora](src/assets/avatars/debora.jpg)           |
-| Dalila Maria da Silva Andrande | Designer e prototipadora (Figma, Canva)  | <img src="Imagens/Dalila" width="60"/>             |
-| Rafael Sousa Magalhães      | Programador Full Stack (PHP/JS/MySQL)         | <img src="Imagens/Rafael" width="60"/>     |
-| Gustavo de Sousa Barros     | Testes e validação com usuários               | <img src="Imagens/Gustavo" width="60"/>            |
+| Dalila Maria da Silva Andrande | Designer e prototipadora (Figma, Canva)  | <img src="Imagens/Dalila.png" width="60"/>             |
+| Rafael Sousa Magalhães      | Programador Full Stack (PHP/JS/MySQL)         | <img src="Imagens/Rafael.png" width="60"/>     |
+| Gustavo de Sousa Barros     | Testes e validação com usuários               | <img src="Imagens/Gustavo.png" width="60"/>            |
 | Camila Santiago Freire      | Documentação e organização do repositório     | <img src="Imagens/Camila.png" width="60"/>         |
 | Prof. Esp. Cleber da Silva Araujo | Orientador do projeto                  | <img src="Imagens/Imagens/489988966_9459216657498851_2128405936884701434_n.jpg" width="60"/>         |
 
