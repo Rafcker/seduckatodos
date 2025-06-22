@@ -1,6 +1,6 @@
 <h1 align="center">🎓 SEDUCKATODOS - Equipe OPALA FRONTLINE</h1>
 <p align="center">Uma plataforma educacional acessível, feita com amor e inclusão real</p>
-<p align="center"><strong>🌐 Acesse: <a href="https://www.seduckatodos.com" target="_blank">www.seduckatodos.com</a></strong></p>
+<p align="center"><strong>🌐 Acesse: <a href="https://www.seduckatodos.com.br" target="_blank">www.seduckatodos.com</a></strong></p>
 <p align="center"><em>⚠️ O front-end já está em funcionamento. O back-end será desenvolvido nas próximas etapas.</em></p>
 
 ---
