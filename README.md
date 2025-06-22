@@ -1,5 +1,7 @@
 <h1 align="center">🎓 SEDUCKATODOS - Equipe OPALA FRONTLINE</h1>
 <p align="center">Uma plataforma educacional acessível, feita com amor e inclusão real</p>
+<p align="center"><strong>🌐 Acesse: <a href="https://www.seduckatodos.com" target="_blank">www.seduckatodos.com</a></strong></p>
+<p align="center"><em>⚠️ O front-end já está em funcionamento. O back-end será desenvolvido nas próximas etapas.</em></p>
 
 ---
 
@@ -60,7 +62,6 @@ Desenvolver uma plataforma web educacional adaptativa que personalize o ensino d
 | **Camila Santiago Freire**        | Responsável pela documentação e testes com usuários                    | <img src="Imagens/CAMILA" width="60"/>            |
 | **Prof. Esp. Cleber da Silva Araujo** | Orientador do projeto                                             | <img src="Imagens/cleber.jpg" width="60"/>        |
 
-
 ---
 
 ## 🧩 Funcionalidades
@@ -93,15 +94,15 @@ Desenvolver uma plataforma web educacional adaptativa que personalize o ensino d
 ![Tela Inicial](Imagens/inicio.png)
 
 ### Perfil TEA
-- Cores neutras, 3 opções de resposta, pictogramas
+- Cores neutras, 3 opções de resposta, pictogramas  
 ![Perfil TEA](Imagens/tea.png)
 
 ### Perfil TDAH
-- Modo foco, Pomodoro, barra de progresso
+- Modo foco, Pomodoro, barra de progresso  
 ![Perfil TDAH](Imagens/tdah.png)
 
 ### Perfil Dislexia
-- Separação silábica, fonte acessível, leitura lenta
+- Separação silábica, fonte acessível, leitura lenta  
 ![Perfil Dislexia](Imagens/dis.png)
 
 ---
@@ -123,18 +124,18 @@ Mascote extra, simboliza inovação e diversidade racial. Configurável e opcion
 
 Baseada em **Design Science Research**, com 5 etapas:
 
-1. Análise das barreiras enfrentadas pelos perfis
-2. Modelagem do artefato com base em DUA, GAIA e NAAPI
-3. Desenvolvimento com tecnologias acessíveis
-4. Testes com 30 alunos por 90 dias (SUS ≥ 80)
-5. Ajustes e sistematização dos resultados
+1. Análise das barreiras enfrentadas pelos perfis  
+2. Modelagem do artefato com base em DUA, GAIA e NAAPI  
+3. Desenvolvimento com tecnologias acessíveis  
+4. Testes com 30 alunos por 90 dias (SUS ≥ 80)  
+5. Ajustes e sistematização dos resultados  
 
 ---
 
 ## 📄 Documentação Técnica
 
-- 📘 [Projeto Completo (PDF)](https://drive.google.com/file/d/1cV8NFrtn2w7i4L86L3EefUYQx7MaKvDu/view?usp=sharing)
-- ✍️ [Guia Técnico]([https://drive.google.com/file/d/1cV8NFrtn2w7i4L86L3EefUYQx7MaKvDu/view?usp=sharing](https://docs.google.com/document/d/148LGC_MVeleb9_el7V-T1q4-SAOP9v-7/edit?usp=sharing&ouid=109755307671743023244&rtpof=true&sd=true)
+- 📘 [Projeto Completo (PDF)](https://drive.google.com/file/d/1cV8NFrtn2w7i4L86L3EefUYQx7MaKvDu/view?usp=sharing)  
+- ✍️ [Guia Técnico](https://docs.google.com/document/d/148LGC_MVeleb9_el7V-T1q4-SAOP9v-7/edit?usp=sharing)
 
 ---
 
