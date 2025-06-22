@@ -134,9 +134,7 @@ Baseada em **Design Science Research**, com 5 etapas:
 ## 📄 Documentação Técnica
 
 - 📘 [Projeto Completo (PDF)](https://drive.google.com/file/d/1cV8NFrtn2w7i4L86L3EefUYQx7MaKvDu/view?usp=sharing)
-- ✍️ [Metodologia](docs/Metodologia.md)
-- 🎯 [Objetivos](docs/Objetivos.md)
-- 🧑‍💻 [Equipe e Funções](docs/Equipe.md)
+- ✍️ [Guia Técnico]([https://drive.google.com/file/d/1cV8NFrtn2w7i4L86L3EefUYQx7MaKvDu/view?usp=sharing](https://docs.google.com/document/d/148LGC_MVeleb9_el7V-T1q4-SAOP9v-7/edit?usp=sharing&ouid=109755307671743023244&rtpof=true&sd=true)
 
 ---
 
