@@ -1,7 +1,14 @@
 <h1 align="center">🎓 SEDUCKATODOS - Equipe OPALA FRONTLINE</h1>
 <p align="center">Uma plataforma educacional acessível, feita com amor e inclusão real</p>
 <p align="center"><strong>🌐 Acesse: <a href="https://www.seduckatodos.com.br" target="_blank">www.seduckatodos.com</a></strong></p>
-<p align="center"><em>⚠️ O front-end já está em funcionamento. O back-end será desenvolvido nas próximas etapas.</em></p>
+<p align="center">
+  <strong>🔐 Acesso para Testes:</strong><br>
+  Usuário: <code>1</code> | Senha: <code>1</code> ➝ Perfil <strong>TEA</strong><br>
+  Usuário: <code>2</code> | Senha: <code>2</code> ➝ Perfil <strong>TDAH</strong><br>
+  Usuário: <code>3</code> | Senha: <code>3</code> ➝ Perfil <strong>Dislexia</strong><br>
+  Usuário: <code>4</code> | Senha: <code>4</code> ➝ Perfil <strong>Professor</strong>
+</p>
+<p align="center"><em>⚠️ O front-end já está em funcionamento. Apenas parte do back-end implementado e o resante será desenvolvido nas próximas etapas.</em></p>
 
 ---
 
