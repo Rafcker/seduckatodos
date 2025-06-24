@@ -8,7 +8,7 @@
   Usuário: <code>3</code> | Senha: <code>3</code> ➝ Perfil <strong>Dislexia</strong><br>
   Usuário: <code>4</code> | Senha: <code>4</code> ➝ Perfil <strong>Professor</strong>
 </p>
-<p align="center"><em>⚠️ O front-end já está em funcionamento. Apenas parte do back-end implementado e o resante será desenvolvido nas próximas etapas.</em></p>
+<p align="center"><em>⚠️ O front-end já está em funcionamento. Apenas parte do back-end implementado e o restante será desenvolvido nas próximas etapas.</em></p>
 
 ---
 
